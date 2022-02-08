@@ -1,0 +1,55 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.highlight{
+  border: 3px outset;
+  border-radius: 5px;
+  background-color: grey;
+}
+
+.outer_game_board{
+  border-radius: 30px;
+  background-color: black;
+  width: 600px;
+  height: 250;
+  padding: 30px;
+  color: whitesmoke;
+}
+.inner_game_board{
+  border-radius: 30px;
+  width: 600px;
+  height: 250px;
+  background-color: indianred;
+}
+
+.top_game_grid{
+  height: 10%;
+}
+.middle_game_grid{
+  height: 65%;
+}
+.bottom_game_grid{
+  height: 5%;
+}
+.card_game_grid{
+  height: 20%;
+}
+.Palyed_card{
+  width: 60px;
+  height: 60px;
+  border: 3px outset;
+}
